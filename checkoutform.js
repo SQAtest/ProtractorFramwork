@@ -37,7 +37,7 @@ describe('Thermomix Checkout Details Form', function(){
         
         signInButton.click();
 
-        browser.sleep(4000);
+        browser.sleep(3000);
         
         expect(browser.getCurrentUrl()).toBe('https://switzerland.thermomix.com/en/sign-in/');
         
@@ -113,7 +113,7 @@ describe('Thermomix Checkout Details Form', function(){
 
         element(by.id('argmc-next')).click();
 
-        browser.sleep(3000);
+        browser.sleep(4000);
 
     });
 });
